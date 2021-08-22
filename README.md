@@ -21,9 +21,11 @@
     **ArchLinux** `sudo pacman -S boost`  
 2. yaml-cpp安装(可不安装到全局) :  
     `git clone https://github.com/jbeder/yaml-cpp.git`  
+    `cd yaml-cpp`    
     `mkdir build`  
     `cd build`  
     `cmake -DBUILD_SHARED_LIBS=ON ..`  //动态库, 默认为静态库  
+    `make`   
     `make install`  
      **ArchLinux** `sudo pacman -S yaml-cpp`  
 3. ragel安装：    
